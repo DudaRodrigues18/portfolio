@@ -1,0 +1,88 @@
+footer{
+    width: 100vw;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: #131313;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer-row1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    height: 80%;
+}
+.left-content{
+    width: 200px;
+    color: white;
+}
+.social-media{
+    width: 180px;
+    margin-top: 20px;
+}
+.rede-social-img{
+    width: 20px;
+    padding: 8px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+.rede-social-img:hover{
+    scale: 1.1;
+}
+.footer-logo{
+    width: 150px;
+}
+.footer-menu{
+    display: flex;
+    width: 50vw;
+    justify-content: space-between;
+}
+.ul-footer{
+    list-style: none;
+    height: 100px;
+}
+.ul-footer li{
+    padding: 5px 0px;
+    font-size: 15px;
+}
+.ul-footer li a:hover{
+    opacity: 80%;
+}
+ul a{
+    text-decoration: none;
+    color: white;
+}
+.footer-ul-title{
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    cursor: default;
+    margin-bottom: 2px;
+}
+.terms{
+    display: flex;
+    width: 25vw;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+   font-size: 12px;
+    text-decoration: none;
+}
+.terms a{
+    color: white;
+   font-size: 12px;
+    text-decoration: none;
+}
+.lan{
+    width: 15px;
+    margin-right: 2px;
+}
+.language{
+    display: flex;
+    align-items: center;
+}

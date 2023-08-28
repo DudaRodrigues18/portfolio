@@ -1,0 +1,38 @@
+.container-conteudo-1{
+    width: 100vw;
+    display: flex;
+    height: 400px;
+    background-color: #242424;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container-text-main-1{
+    height: 300px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-main-1{
+width: 650px;
+background-color: #242424;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.img-main-1>img{
+    margin-right: 20px;
+    width: 500px;
+}
+.titulo-main1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.container-text-main-1 p{
+    color: white;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 20px;
+    width: 80%;
+}
