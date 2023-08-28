@@ -1,11 +1,12 @@
-import './Header.css'
-import Link from './../link/Link'
+import './Header.css';
+import Link from './../link/Link';
+import Logo from "../../assets/imagens/letra-m.png";
 
 function Header(){
     return(
         <header>
         <div>
-            <img src="src\assets\imagens\letra-m.png" className="header-logo" />
+            <img src={Logo} className="header-logo" alt='Logo' />
         </div>
         <nav>
             <ul>

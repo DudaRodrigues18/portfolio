@@ -1,21 +1,28 @@
 import './Footer.css'
 import Link from './../link/Link'
+import Logo from "../../assets/imagens/letra-m.png";
+import Instagram from "../../assets/imagens/instagram.png";
+import Facebook from "../../assets/imagens/facebook.png";
+import Twitter from "../../assets/imagens/twitter.png";
+import Youtube from "../../assets/imagens/youtube.png";
+import Discord from "../../assets/imagens/discord.png";
+import Language from "../../assets/imagens/globo.png";
 
 export default function Footer(){
     return(
 <footer>
         <div className="footer-row1">
         <div className="left-content">
-            <img src="src\assets\imagens\letra-m.png" className="footer-logo" />
+            <img src={Logo} className="footer-logo" />
             <p>Terenciani Terenciani Terenciani Terenciani Terenciani Terenciani
             Terenciani Terenciani 
             </p>
             <div className="social-media">
-                <img src="src\assets\imagens\instagram.png" className="rede-social-img" />
-                <img src="src\assets\imagens\facebook.png" className="rede-social-img" />
-                <img src="src\assets\imagens\twitter.png" className="rede-social-img" />
-                <img src="src\assets\imagens\youtube.png" className="rede-social-img" />
-                <img src="src\assets\imagens\discord.png" className="rede-social-img" />
+                <img src={Instagram} className="rede-social-img" />
+                <img src={Facebook} className="rede-social-img" />
+                <img src={Twitter} className="rede-social-img" />
+                <img src={Youtube} className="rede-social-img" />
+                <img src={Discord} className="rede-social-img" />
             </div>
         </div>
         <nav className="footer-menu">
@@ -59,7 +66,7 @@ export default function Footer(){
             <Link texto='Terms of Service'/>
             <Link texto='Privacy Policy'/>
             <div className="language">
-                <img src="src\assets\imagens\globo.png" className="lan" />
+                <img src={Language} className="lan" />
                 <Link texto='English'/>
             </div>
         </div>

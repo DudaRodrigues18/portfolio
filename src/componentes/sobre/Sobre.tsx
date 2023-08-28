@@ -1,8 +1,11 @@
 import './Sobre.css'
+import Avatar from "../../assets/imagens/do-utilizador.png";
+import Informacao from "../../assets/imagens/botao-de-informacao.png";
+import Fundo from "../../assets/imagens/fundo.jpg"
 
 function Sobre(){
     return(
-        <main className="container-conteudo-1">
+        <main className="container-conteudo-1" style={{backgroundImage: `url(${Fundo})`}}>
     <div className="container-text-main-1">
         <div className="texto-sobre">
         <h1 className="titulo-main1">Maria Eduarda Silva Rodrigues</h1>
@@ -12,7 +15,7 @@ function Sobre(){
         <p>E-mail: maria.rodrigues18@estudante.ifms.edu.br</p>
         </div>
     <div className="img-avatar">
-        <img src="src\assets\imagens\do-utilizador.png"/>
+        <img src={Avatar}/>
     </div>
     </div>
     <div className="container-text-main-2">
@@ -27,7 +30,7 @@ function Sobre(){
             </p>
             </div>
             <div className="img-informacao-main2">
-                <img src="src\assets\imagens\botao-de-informacao.png"/>
+                <img src={Informacao}/>
             </div>
         </div>
     </div>

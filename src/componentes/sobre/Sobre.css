@@ -1,10 +1,10 @@
+
 .container-conteudo-1{
     width: 100vw;
     display: flex;
     height: auto;
     background-color: #242424;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: url(src/assets/imagens/informatica-para-concursos-1.jpg);
     background-size: cover;
     background-attachment: fixed;
     flex-direction: column;
