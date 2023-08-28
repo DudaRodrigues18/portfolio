@@ -1,0 +1,86 @@
+.container-conteudo-1{
+    width: 100vw;
+    display: flex;
+    height: auto;
+    background-color: #242424;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background: url(src/assets/imagens/informatica-para-concursos-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    flex-direction: column;
+}
+.container-text-main-1{
+    height: 550px;
+    width: 80%;
+    display: flex;
+    background-color: #222222;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.texto-sobre{
+    display: flex;
+    flex-direction: column;
+}
+.img-avatar img{
+    width: 400px;
+}
+.img-avatar{
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 50%;
+    justify-content: center;
+}
+.titulo-main1{
+    color: white;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+.container-text-main-1 p{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+    width: 60%;
+    margin-left: 50px;
+}
+.container-text-main-2{
+    width: 98.5%;
+    height: 800px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+}
+.div-main-sobre-2{
+    background-color: white;
+    width: 80%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-main-sobre-2>h1{
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.texto-main-sobre-2 p{
+    color: black;
+    font-size: 16px;
+    line-height: 40px;
+}
+.texto-main-sobre-2{
+    margin-left: 80px;
+    width: 80%;
+}
+.img-informacao-main2 img{
+    width: 300px;
+}
+.img-informacao-main2{
+    height: 90%;
+    display: flex;
+    align-items: center;
+    margin-right: 200px;
+    margin-left: 100px;
+}

@@ -5,15 +5,15 @@ function Header(){
     return(
         <header>
         <div>
-            <img src="" className="header-logo" />
+            <img src="src\assets\imagens\letra-m.png" className="header-logo" />
         </div>
         <nav>
             <ul>
                 <li>
-                    <Link texto='Projetos'/>
+                    <Link texto='Home'/>
                 </li>
                 <li>
-                    <Link texto='Home'/>
+                    <Link texto='Projetos'/>
                 </li>
                 <li>
                     <Link texto='Sobre'/>

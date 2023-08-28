@@ -6,14 +6,16 @@ export default function Footer(){
 <footer>
         <div className="footer-row1">
         <div className="left-content">
-            <img src="" className="footer-logo" />
-            <p></p>
+            <img src="src\assets\imagens\letra-m.png" className="footer-logo" />
+            <p>Terenciani Terenciani Terenciani Terenciani Terenciani Terenciani
+            Terenciani Terenciani 
+            </p>
             <div className="social-media">
-                <img src="src\assets\img\instagram.png" className="rede-social-img" />
-                <img src="src\assets\img\facebook.png" className="rede-social-img" />
-                <img src="src\assets\img\twitter.png" className="rede-social-img" />
-                <img src="src\assets\img\youtube.png" className="rede-social-img" />
-                <img src="src\assets\img\discord.png" className="rede-social-img" />
+                <img src="src\assets\imagens\instagram.png" className="rede-social-img" />
+                <img src="src\assets\imagens\facebook.png" className="rede-social-img" />
+                <img src="src\assets\imagens\twitter.png" className="rede-social-img" />
+                <img src="src\assets\imagens\youtube.png" className="rede-social-img" />
+                <img src="src\assets\imagens\discord.png" className="rede-social-img" />
             </div>
         </div>
         <nav className="footer-menu">
@@ -50,15 +52,6 @@ export default function Footer(){
                     <Link texto='Centro de Ajuda'/>
                 </li>
             </ul>
-            <ul className="ul-footer">
-                <h1 className='footer-ul-title'>Community</h1>
-                <li>
-                <Link texto='Discord Community'/>
-                </li>
-                <li>
-                <Link texto='Documentation'/>
-                </li>
-            </ul>
         </nav>
         </div>
         <div className="terms">
@@ -66,7 +59,7 @@ export default function Footer(){
             <Link texto='Terms of Service'/>
             <Link texto='Privacy Policy'/>
             <div className="language">
-                <img src="src\assets\img\globo.png" className="lan" />
+                <img src="src\assets\imagens\globo.png" className="lan" />
                 <Link texto='English'/>
             </div>
         </div>
