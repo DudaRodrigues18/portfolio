@@ -47,7 +47,7 @@
 }
 .container-text-main-2{
     width: 98.5%;
-    height: 800px;
+    height: auto;
     margin-top: 30px;
     display: flex;
     justify-content: flex-end;
@@ -58,11 +58,12 @@
     margin-bottom: 50px;
     display: flex;
     justify-content: space-around;
+    height: auto;
 }
 .texto-main-sobre-2>h1{
     color: black;
-    margin-top: 20px;
-    margin-bottom: 60px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     font-size: 40px;
 }
 .texto-main-sobre-2 p{
@@ -73,6 +74,8 @@
 .texto-main-sobre-2{
     margin-left: 80px;
     width: 80%;
+    height: auto;
+    padding-bottom: 50px;
 }
 .img-informacao-main2 img{
     width: 300px;
