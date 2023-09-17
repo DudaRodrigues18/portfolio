@@ -1,19 +1,20 @@
 import './Main.css'
-import Link from './../link/Link';
+import Link from '../link/Link';
 import Avatar from "../../../public/duda-story.png";
 import Instagram from "../../../public/instagram2.png";
 import Email from "../../../public/e-mail.png";
 import Twitter from "../../../public/twitter2.png";
 import Youtube from "../../../public/youtube2.png";
+import BackgroundMain from "../../../public/background-flores2.png";
 
 function Sobre(){
     return(
     <main>
-        <div className="main1">
+        <div className="main1" style={{backgroundImage: `url(${BackgroundMain})`}}>
             <div className="container-conteudo1">
                 <div className="texto-container1">
                     <h1>
-                        Maria Eduarda
+                        Maria Eduarda   
                     </h1>
                 <ul className='menu-main1'>
                     <li>

@@ -1,4 +1,4 @@
-import Main from './componentes/sobre/Main'
+import Main from './componentes/main/Main'
 import Footer from './componentes/footer/Footer'
 import './App.css'
 
