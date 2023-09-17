@@ -1,5 +1,4 @@
-import Header from './componentes/header/Header'
-import Sobre from './componentes/sobre/Sobre'
+import Main from './componentes/sobre/Main'
 import Footer from './componentes/footer/Footer'
 import './App.css'
 
@@ -7,8 +6,7 @@ import './App.css'
 function App() {
   return (
     <>
-    <Header/>
-    <Sobre/>
+    <Main/>
     <Footer/>
     </>
   )

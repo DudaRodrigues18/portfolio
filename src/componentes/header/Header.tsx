@@ -1,6 +1,6 @@
 import './Header.css';
 import Link from './../link/Link';
-import Logo from "../../assets/imagens/letra-m.png";
+import Logo from "../../../public/letra-m.png";
 
 function Header(){
     return(
@@ -11,13 +11,10 @@ function Header(){
         <nav>
             <ul>
                 <li>
-                    <Link texto='Home'/>
+                    <Link texto='Sobre'/>
                 </li>
                 <li>
                     <Link texto='Projetos'/>
-                </li>
-                <li>
-                    <Link texto='Sobre'/>
                 </li>
                 <li>
                     <Link texto='Contato'/>

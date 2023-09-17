@@ -1,6 +1,6 @@
 footer{
     width: 100vw;
-    height: 280px;
+    height: 220px;
     display: flex;
     flex-direction: column;
     background-color: #131313;
@@ -24,13 +24,11 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-.left-content p{
-    font-size: 12px;    
-    margin-top: 20px;
-}
 .social-media{
-    width: 200px;
+    width: 180px;
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 .rede-social-img{
     width: 40px;
@@ -73,7 +71,7 @@ ul a{
 }
 .terms{
     display: flex;
-    width: 25vw;
+    width: 15vw;
     height: 20px;
     justify-content: space-between;
     align-items: center;

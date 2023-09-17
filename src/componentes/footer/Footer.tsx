@@ -1,12 +1,11 @@
 import './Footer.css'
 import Link from './../link/Link'
-import Logo from "../../assets/imagens/letra-m.png";
-import Instagram from "../../assets/imagens/instagram.png";
-import Facebook from "../../assets/imagens/facebook.png";
-import Twitter from "../../assets/imagens/twitter.png";
-import Youtube from "../../assets/imagens/youtube.png";
-import Discord from "../../assets/imagens/discord.png";
-import Language from "../../assets/imagens/globo.png";
+import Logo from "../../../public/letra-m.png";
+import Instagram from "../../../public/instagram.png";
+import Facebook from "../../../public/facebook.png";
+import Twitter from "../../../public/twitter.png";
+import Youtube from "../../../public/youtube.png";
+import Language from "../../../public/globo.png";
 
 export default function Footer(){
     return(
@@ -14,15 +13,11 @@ export default function Footer(){
         <div className="footer-row1">
         <div className="left-content">
             <img src={Logo} className="footer-logo" />
-            <p>Terenciani Terenciani Terenciani Terenciani Terenciani Terenciani
-            Terenciani Terenciani 
-            </p>
             <div className="social-media">
                 <img src={Instagram} className="rede-social-img" />
                 <img src={Facebook} className="rede-social-img" />
                 <img src={Twitter} className="rede-social-img" />
                 <img src={Youtube} className="rede-social-img" />
-                <img src={Discord} className="rede-social-img" />
             </div>
         </div>
         <nav className="footer-menu">
@@ -47,7 +42,7 @@ export default function Footer(){
                     <Link texto='Programa de parceria'/>
                 </li>
                 <li>
-                    <Link texto='Nos contate'/>
+                    <Link texto='Contate-me'/>
                 </li>
             </ul>
             <ul className="ul-footer">
@@ -62,9 +57,7 @@ export default function Footer(){
         </nav>
         </div>
         <div className="terms">
-            <p className="copyright">© 2019-2022 AppMaster</p>
-            <Link texto='Terms of Service'/>
-            <Link texto='Privacy Policy'/>
+            <p className="copyright">© 2022-2023</p>
             <div className="language">
                 <img src={Language} className="lan" />
                 <Link texto='English'/>
