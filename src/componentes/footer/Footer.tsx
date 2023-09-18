@@ -45,15 +45,6 @@ export default function Footer(){
                     <Link texto='Contate-me'/>
                 </li>
             </ul>
-            <ul className="ul-footer">
-                <h1 className='footer-ul-title'>Ajuda</h1>
-                <li>
-                    <Link texto='Blog'/>
-                </li>
-                <li>
-                    <Link texto='Centro de Ajuda'/>
-                </li>
-            </ul>
         </nav>
         </div>
         <div className="terms">

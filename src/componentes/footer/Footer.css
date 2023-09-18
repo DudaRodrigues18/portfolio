@@ -44,7 +44,7 @@ footer{
 }
 .footer-menu{
     display: flex;
-    width: 50vw;
+    width: 40vw;
     justify-content: space-between;
 }
 .ul-footer{
@@ -71,7 +71,7 @@ ul a{
 }
 .terms{
     display: flex;
-    width: 15vw;
+    width: 90vw;
     height: 20px;
     justify-content: space-between;
     align-items: center;
