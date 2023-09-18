@@ -11,12 +11,6 @@ import BackgroundMain from "../../../public/background-flores2.png";
 import Logo from "../../../public/letra-m.png";
 import { animateScroll as scroll } from 'react-scroll';
 
-type ProjetoType = {
-    id:number,
-    titulo:string,
-    imagem:string
-}
-
 
 function Main(){
     const irParaOTopo = () => {
