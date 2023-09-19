@@ -51,7 +51,7 @@ export default function Footer(){
             <p className="copyright">© 2022-2023</p>
             <div className="language">
                 <img src={Language} className="lan" />
-                <Link texto='English'/>
+                <Link texto='Português'/>
             </div>
         </div>
     </footer>

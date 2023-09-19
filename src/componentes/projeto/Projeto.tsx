@@ -1,6 +1,7 @@
 import './Projeto.css'
 type ProjetoProps = {
     titulo:string,
+    descricao:string,
     imagem:string
 }
 
@@ -12,7 +13,7 @@ function Projeto(props:ProjetoProps){
                </div>
                 <div className="text-projeto">
                     <h1>{props.titulo}</h1>
-                    <button>Ver mais</button>
+                    <p>{props.descricao}</p>
                 </div> 
             </div>
     )

@@ -23,16 +23,37 @@ function Main(){
     {
       id: 1,
       titulo: 'Site da Barbie',
+      descricao: 'Site criado em aula de frameworks',
       imagem: './barbie.webp'
     },
     {
         id: 2,
         titulo: 'RED Educação Física - Esgrima',
+        descricao: 'Site criado para apresentar trabalho, sobre esgrima, de educação física',
         imagem: './esgrima.webp'
       },
     {
         id: 3,
-        titulo: 'Aplicativo Gerel   ',
+        titulo: 'Aplicativo Gerel',
+        descricao: 'Aplicativo de gestão de esportes e lazer',
+        imagem: './logo-gerel.png'
+      },
+    {
+        id: 4,
+        titulo: 'Voleibol Naviraí',
+        descricao: 'Membro do time de voleibol de Naviraí - MS',
+        imagem: './voleibol-projeto.jpg'
+      },
+    {
+        id: 5,
+        titulo: 'Aplicativo Gerel',
+        descricao: 'Aplicativo de gestão de esportes e lazer',
+        imagem: './logo-gerel.png'
+      },
+    {
+        id: 6,
+        titulo: 'Aplicativo Gerel',
+        descricao: 'Aplicativo de gestão de esportes e lazer',
         imagem: './logo-gerel.png'
       }
 ];
@@ -78,6 +99,11 @@ function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
             </div>  
 
             <div className="main2">
+                <h1>Olá! me chamo Maria Eduarda Silva Rodrigues</h1>
+                <p>Sou estudante de informática para a internet e pretendo </p>
+            </div>
+
+            <div className="main3">
                 <h1 className='projetos-titulo'>PROJETOS</h1>
         <div className="pesquisar">
             <input type="text" 
@@ -93,6 +119,7 @@ function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
                             <Projeto 
                                 key={projeto.id}
                                 titulo={projeto.titulo}
+                                descricao={projeto.descricao}
                                 imagem={projeto.imagem}
                             />
                         )}
