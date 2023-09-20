@@ -94,7 +94,27 @@ main{
 .social-media-main img:hover{
     transform: scale(1.1);
 }
-/*-------------------------------------*/
+/*------------------------------------------------------------------------------------------*/
+.main2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+.text-main2{
+    width: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+.main2 h1{
+    color: #b34918;
+    margin-bottom: 30px;
+    line-height: 40px;
+}
+
+/*------------------------------------------------------------------------------------------*/
 .main3{
     width: 100%;
     height: auto;
@@ -110,7 +130,7 @@ main{
     min-height: 30vw;
 }
 .projetos-titulo{
-    font-size: 2.5vw;
+    font-size: 2.1vw;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -138,4 +158,15 @@ main{
    }
 .botao-pesquisa.visited {
     outline: 1px solid rgb(138, 157, 255);   
+}
+/*------------------------------------------------------------------------------------------*/
+.main4{
+    width: 100%;
+    height: auto;
+    min-height: 500px;
+    display: flex;
+    gap: 30px;
+    padding: 15px 100px;
+    flex-wrap: wrap;
+    justify-content: center;
 }

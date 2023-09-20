@@ -1,11 +1,11 @@
 import './Footer.css'
 import Link from './../link/Link'
-import Logo from "../../../public/letra-m.png";
-import Instagram from "../../../public/instagram.png";
-import Facebook from "../../../public/facebook.png";
-import Twitter from "../../../public/twitter.png";
-import Youtube from "../../../public/youtube.png";
-import Language from "../../../public/globo.png";
+import Logo from "../../assets/img/letra-m.png";
+import Instagram from "../../assets/img/instagram.png";
+import Facebook from "../../assets/img/facebook.png";
+import Twitter from "../../assets/img/twitter.png";
+import Youtube from "../../assets/img/youtube.png";
+import Language from "../../assets/img/globo.png";
 
 export default function Footer(){
     return(

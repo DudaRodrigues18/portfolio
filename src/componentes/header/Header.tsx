@@ -1,6 +1,6 @@
 import './Header.css';
 import Link from './../link/Link';
-import Logo from "../../../public/letra-m.png";
+import Logo from "../../assets/img/letra-m.png";
 
 function Header(){
     return(

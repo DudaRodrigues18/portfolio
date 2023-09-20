@@ -2,13 +2,14 @@ import './Main.css'
 import { useState } from 'react'
 import Link from '../link/Link';
 import Projeto from './../projeto/Projeto'
-import Avatar from "../../../public/duda-story.png";
-import Instagram from "../../../public/instagram2.png";
-import Email from "../../../public/e-mail.png";
-import Twitter from "../../../public/twitter2.png";
-import Youtube from "../../../public/youtube2.png";
-import BackgroundMain from "../../../public/background-flores2.png";
-import Logo from "../../../public/letra-m.png";
+import Certificado from '../certificado/Certificado';
+import Avatar from "../../assets/img/duda-story.png";
+import Instagram from "../../assets/img/instagram2.png";
+import Email from "../../assets/img/e-mail.png";
+import Twitter from "../../assets/img/twitter2.png";
+import Youtube from "../../assets/img/youtube2.png";
+import BackgroundMain from "../../assets/img/background-flores2.png";
+import Logo from "../../assets/img/letra-m.png";
 import { animateScroll as scroll } from 'react-scroll';
 
 
@@ -43,18 +44,28 @@ function Main(){
         titulo: 'Voleibol Naviraí',
         descricao: 'Membro do time de voleibol de Naviraí - MS',
         imagem: './voleibol-projeto.jpg'
+      }
+];
+    const certificados = [
+    {
+      id: 1,
+      titulo: 'Site da Barbie',
+      imagem: './barbie.webp'
+    },
+    {
+        id: 2,
+        titulo: 'RED Educação Física - Esgrima',
+        imagem: './esgrima.webp'
       },
     {
-        id: 5,
+        id: 3,
         titulo: 'Aplicativo Gerel',
-        descricao: 'Aplicativo de gestão de esportes e lazer',
         imagem: './logo-gerel.png'
       },
     {
-        id: 6,
-        titulo: 'Aplicativo Gerel',
-        descricao: 'Aplicativo de gestão de esportes e lazer',
-        imagem: './logo-gerel.png'
+        id: 4,
+        titulo: 'Voleibol Naviraí',
+        imagem: './voleibol-projeto.jpg'
       }
 ];
 
@@ -99,8 +110,17 @@ function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
             </div>  
 
             <div className="main2">
-                <h1>Olá! me chamo Maria Eduarda Silva Rodrigues</h1>
-                <p>Sou estudante de informática para a internet e pretendo </p>
+            <div className="text-main2">
+                <h1>Olá! 
+                    <br />
+                    Me chamo Maria Eduarda Silva Rodrigues</h1>
+                <p>Sou estudante de informática para a internet e pretendo cursar ensino 
+                superior relacionado a área de TI, como Análise de desenvolvimento de 
+                sistemas ou segurança da informação.
+                <br /> <br />
+                Faço estágio no TI da Copasul desde julho de 2022, atualmente sou da equipe de segurança da informação e administrativa.
+                </p>
+            </div>
             </div>
 
             <div className="main3">
@@ -124,6 +144,26 @@ function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
                             />
                         )}
             </div> 
+            <div className="main4">
+                <h1 className="projetos-titulo">CERTIFICADOS</h1>
+                <div className="pesquisar">
+            <input type="text" 
+                className='botao-pesquisa' 
+                placeholder='Pesquisar' 
+                onChange={TrataTexto}/>
+            {texto && <p>Resultados para: {texto}</p>}    
+        </div>
+            
+            {
+                certificados.filter((certificado)=>certificado.titulo.toLowerCase().includes(texto)).map(
+                        (certificado)=>
+                            <Certificado 
+                                key={certificado.id}
+                                titulo={certificado.titulo}
+                                imagem={certificado.imagem}
+                            />
+                        )}
+            </div>
     </main>
     )
 }
