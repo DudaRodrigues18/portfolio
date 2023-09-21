@@ -27,7 +27,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 30%);
+    background-attachment:fixed;
+    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 10%);
 }
 .container-conteudo1{
     width: 50%;
@@ -113,7 +114,6 @@ main{
     margin-bottom: 30px;
     line-height: 40px;
 }
-
 /*------------------------------------------------------------------------------------------*/
 .main3{
     width: 100%;
@@ -129,6 +129,13 @@ main{
     margin-bottom: 200px;
     min-height: 30vw;
 }
+.campoPesquisa{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .projetos-titulo{
     font-size: 2.1vw;
     font-family: Arial, Helvetica, sans-serif;
@@ -139,20 +146,20 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 150px;
-    margin-left: 200px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     }
 
 .pesquisar>input{
-    width: 25%;
+    width: 25vw;
     height: 30px;
     padding-left: 10px;
 }
 .botao-pesquisa{
     height: 30px;
-    border: 1px solid #d6d6d6;
+    border: 1px solid #a7a7a7;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -166,10 +173,9 @@ main{
 .main4{
     width: 100%;
     height: auto;
-    min-height: 500px;
     display: flex;
     gap: 30px;
-    padding: 15px 100px;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 20px;
 }

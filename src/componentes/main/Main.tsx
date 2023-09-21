@@ -137,17 +137,20 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
             <div className="text-main2">
                 <h1>Olá! 
                     <br />
-                    Me chamo Maria Eduarda Silva Rodrigues</h1>
-                <p>Sou estudante de informática para a internet e pretendo cursar ensino 
+                    Me chamo Maria Eduarda Silva Rodrigues
+                    </h1>
+                <p>
+                Sou estudante de informática para a internet e pretendo cursar ensino 
                 superior relacionado a área de TI, como Análise de desenvolvimento de 
                 sistemas ou segurança da informação.
                 <br /> <br />
-                Faço estágio no TI da Copasul desde julho de 2022, atualmente sou da equipe de segurança da informação e administrativa.
+                Faço estágio em um setor de TI desde julho de 2022, atualmente sendo da equipe de segurança da informação e administrativa.
                 </p>
             </div>
             </div>
-
+            <div className="back-divs2e3"></div>
             <div className="main3">
+                <div className='campoPesquisa'>
                 <h1 className='projetos-titulo'>PROJETOS</h1>
         <div className="pesquisar">
             <input type="text" 
@@ -155,6 +158,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                 placeholder='Pesquisar' 
                 onChange={TrataTexto}/>
             {texto && <p>Resultados para: {texto}</p>}    
+        </div>
         </div>
             
             {
@@ -169,6 +173,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                         )}
             </div> 
             <div className="main4">
+            <div className='campoPesquisa'>
                 <h1 className="projetos-titulo">CERTIFICADOS</h1>
                 <div className="pesquisar">
             <input type="text" 
@@ -176,6 +181,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                 placeholder='Pesquisar' 
                 onChange={TrataTexto2}/>
             {texto2 && <p>Resultados para: {texto2}</p>}    
+            </div>
         </div>
             
             {
