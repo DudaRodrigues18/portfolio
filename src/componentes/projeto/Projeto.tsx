@@ -14,6 +14,7 @@ function Projeto(props:ProjetoProps){
                 <div className="text-projeto">
                     <h1>{props.titulo}</h1>
                     <p>{props.descricao}</p>
+                    <button>Ver</button>
                 </div> 
             </div>
     )

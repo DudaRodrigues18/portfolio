@@ -9,6 +9,7 @@ import Email from "../../assets/img/e-mail.png";
 import Twitter from "../../assets/img/twitter2.png";
 import Youtube from "../../assets/img/youtube2.png";
 import BackgroundMain from "../../assets/img/background-flores2.png";
+import BackgroundMain3e4 from "../../assets/img/backgroundMain3e4.png"
 import Logo from "../../assets/img/letra-m.png";
 import { animateScroll as scroll } from 'react-scroll';
 
@@ -148,7 +149,8 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                 </p>
             </div>
             </div>
-            <div className="back-divs2e3"></div>
+
+            <div className="back-divs2e3" style={{backgroundImage: `url(${BackgroundMain3e4})`}}>
             <div className="main3">
                 <div className='campoPesquisa'>
                 <h1 className='projetos-titulo'>PROJETOS</h1>
@@ -193,6 +195,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                                 imagem={certificado.imagem}
                             />
                         )}
+                </div>
             </div>
     </main>
     )

@@ -55,3 +55,17 @@
 .text-projeto a:hover{
     background-color: #307034;
 }
+
+.text-projeto button{
+    cursor: pointer;
+    background-color: #4b8a4f;
+    color: white;
+    border: 0;
+    border-radius: 2px;
+    padding: 5px 20px;
+    transition: 0.3s;
+    width: 6vw;
+}
+.text-projeto button:hover{
+    background-color: #307034;
+}
