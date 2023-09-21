@@ -66,17 +66,17 @@ function Main(){
       },
     {
         id: 8,
-        titulo: 'Produtividade',
+        titulo: 'Produtividade 1',
         imagem: './produt1Alura.png'
       },
     {
         id: 9,
-        titulo: 'Produtividade',
+        titulo: 'Produtividade 2',
         imagem: './produt2Alura.png'
       },
     {
         id: 10,
-        titulo: 'Produtividade',
+        titulo: 'Produtividade 3',
         imagem: './produtAlura.png'
       },
     {
