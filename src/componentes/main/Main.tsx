@@ -19,6 +19,7 @@ function Main(){
       }
 
     const [texto, setTexto]=useState("")
+    const [texto2, setTexto2]=useState("")
 
     const projetos = [
     {
@@ -48,29 +49,52 @@ function Main(){
 ];
     const certificados = [
     {
-      id: 1,
-      titulo: 'Site da Barbie',
-      imagem: './barbie.webp'
+      id: 5,
+      titulo: 'LGPD com foco técnico',
+      imagem: './ImersaoLGPD-tecnico.png'
     },
     {
-        id: 2,
-        titulo: 'RED Educação Física - Esgrima',
-        imagem: './esgrima.webp'
+        id: 6,
+        titulo: 'LGPD',
+        imagem: './LGPDAlura.png'
       },
     {
-        id: 3,
-        titulo: 'Aplicativo Gerel',
-        imagem: './logo-gerel.png'
+        id: 7,
+        titulo: 'Inteligencia Emocional',
+        imagem: './inteligenciaEmocional.png'
       },
     {
-        id: 4,
-        titulo: 'Voleibol Naviraí',
-        imagem: './voleibol-projeto.jpg'
+        id: 8,
+        titulo: 'Produtividade',
+        imagem: './produt1Alura.png'
+      },
+    {
+        id: 9,
+        titulo: 'Produtividade',
+        imagem: './produt2Alura.png'
+      },
+    {
+        id: 10,
+        titulo: 'Produtividade',
+        imagem: './produtAlura.png'
+      },
+    {
+        id: 11,
+        titulo: 'Habitos',
+        imagem: './habitosAlura.png'
+      },
+    {
+        id: 12,
+        titulo: 'Kaspersky antivirus',
+        imagem: './kaspersky.png'
       }
 ];
 
 function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
     setTexto(e.target.value)
+}
+function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
+    setTexto2(e.target.value)
 }
 
     return(
@@ -150,12 +174,12 @@ function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
             <input type="text" 
                 className='botao-pesquisa' 
                 placeholder='Pesquisar' 
-                onChange={TrataTexto}/>
-            {texto && <p>Resultados para: {texto}</p>}    
+                onChange={TrataTexto2}/>
+            {texto2 && <p>Resultados para: {texto2}</p>}    
         </div>
             
             {
-                certificados.filter((certificado)=>certificado.titulo.toLowerCase().includes(texto)).map(
+                certificados.filter((certificado)=>certificado.titulo.toLowerCase().includes(texto2)).map(
                         (certificado)=>
                             <Certificado 
                                 key={certificado.id}

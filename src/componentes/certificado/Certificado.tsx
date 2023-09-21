@@ -10,7 +10,7 @@ function Certificado(props:CertificadoProps){
                <div className="foto-certificado"> 
                <img src={props.imagem} alt="" />
                </div>
-                <div className="text-projeto">
+                <div className="text-certificado">
                     <h1>{props.titulo}</h1>
                 </div> 
             </div>
