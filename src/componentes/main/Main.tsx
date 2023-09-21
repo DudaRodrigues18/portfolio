@@ -50,7 +50,7 @@ function Main(){
     const certificados = [
     {
       id: 5,
-      titulo: 'LGPD com foco técnico',
+      titulo: 'LGPD com foco tecnico',
       imagem: './ImersaoLGPD-tecnico.png'
     },
     {
