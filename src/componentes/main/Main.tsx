@@ -26,25 +26,25 @@ function Main(){
     {
       id: 1,
       titulo: 'Site da Barbie',
-      descricao: 'Site criado em aula de frameworks',
+      descricao: 'Site criado em aula de frameworks.',
       imagem: './barbie.webp'
     },
     {
         id: 2,
         titulo: 'RED Educação Física - Esgrima',
-        descricao: 'Site criado para apresentar trabalho, sobre esgrima, de educação física',
+        descricao: 'Site criado para apresentar trabalho sobre esgrima, de educação física.',
         imagem: './esgrima.webp'
       },
     {
         id: 3,
         titulo: 'Aplicativo Gerel',
-        descricao: 'Aplicativo de gestão de esportes e lazer',
+        descricao: 'Aplicativo de gestão de esportes e lazer.',
         imagem: './logo-gerel.png'
       },
     {
         id: 4,
         titulo: 'Voleibol Naviraí',
-        descricao: 'Membro do time de voleibol de Naviraí - MS',
+        descricao: 'Membro do time de voleibol de Naviraí - MS.',
         imagem: './voleibol-projeto.jpg'
       }
 ];
