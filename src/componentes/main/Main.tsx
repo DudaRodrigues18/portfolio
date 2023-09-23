@@ -32,7 +32,7 @@ function Main(){
     {
         id: 2,
         titulo: 'RED Educação Física - Esgrima',
-        descricao: 'Site criado para apresentar trabalho sobre esgrima, de educação física.',
+        descricao: 'Site criado para apresentar trabalho sobre esgrima, de educação física. Em 2021',
         imagem: './esgrima.webp'
       },
     {
