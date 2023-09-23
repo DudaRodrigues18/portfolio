@@ -142,7 +142,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                         <Link texto='Projetos'/>
                     </li>
                     <li>
-                        <Link texto='Contato'/>
+                        <Link texto='Certificados'/>
                     </li>
                 </ul>
                 <div className="social-media-main">
