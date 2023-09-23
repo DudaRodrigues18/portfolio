@@ -46,46 +46,70 @@ function Main(){
         titulo: 'Voleibol Naviraí',
         descricao: 'Membro do time de voleibol de Naviraí - MS.',
         imagem: './voleibol-projeto.jpg'
+      },
+    {
+        id: 5,
+        titulo: '1° NaviNerd',
+        descricao: 'Ajudante e cosplayer no 1° evento de cultura nerd de Naviraí.',
+        imagem: './NaviNerd.jpeg'
+      },
+    {
+        id: 6,
+        titulo: 'Intercurso IFMS',
+        descricao: 'Participante do time de vôlei do intercurso IFMS 2023.',
+        imagem: './intercurso.jpeg'
+      },
+    {
+        id: 7,
+        titulo: 'JIFs 2023',
+        descricao: 'Participante do time de vôlei do JIFs 2023, que aconteceu em Dourados.',
+        imagem: './JIFs.jpg'
+      },
+    {
+        id: 8,
+        titulo: 'Estágio Copasul',
+        descricao: 'Estágio no setor de TI da Copasul desde julho de 2022.',
+        imagem: './estagio.jpeg'
       }
 ];
     const certificados = [
     {
-      id: 5,
+      id: 9,
       titulo: 'LGPD com foco tecnico',
       imagem: './ImersaoLGPD-tecnico.png'
     },
     {
-        id: 6,
+        id: 10,
         titulo: 'LGPD',
         imagem: './LGPDAlura.png'
       },
     {
-        id: 7,
+        id: 11,
         titulo: 'Inteligencia Emocional',
         imagem: './inteligenciaEmocional.png'
       },
     {
-        id: 8,
+        id: 12,
         titulo: 'Produtividade 1',
         imagem: './produt1Alura.png'
       },
     {
-        id: 9,
+        id: 13,
         titulo: 'Produtividade 2',
         imagem: './produt2Alura.png'
       },
     {
-        id: 10,
+        id: 14,
         titulo: 'Produtividade 3',
         imagem: './produtAlura.png'
       },
     {
-        id: 11,
+        id: 15,
         titulo: 'Habitos',
         imagem: './habitosAlura.png'
       },
     {
-        id: 12,
+        id: 16,
         titulo: 'Kaspersky antivirus',
         imagem: './kaspersky.png'
       }
@@ -138,14 +162,15 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
             <div className="text-main2">
                 <h1>Olá! 
                     <br />
-                    Me chamo Maria Eduarda Silva Rodrigues
+                    Me chamo Maria Eduarda Silva Rodrigues.
                     </h1>
                 <p>
-                Sou estudante de informática para a internet e pretendo cursar ensino 
-                superior relacionado a área de TI, como Análise de desenvolvimento de 
-                sistemas ou segurança da informação.
+                Sou estudante de informática para a internet no 
+                IFMS e trabalho com TI, atualmente sendo da equipe de 
+                segurança da informação e administrativa.
                 <br /> <br />
-                Faço estágio em um setor de TI desde julho de 2022, atualmente sendo da equipe de segurança da informação e administrativa.
+                Pretendo cursar ensino superior relacionado a área de Tecnologia, como Análise de desenvolvimento de 
+                sistemas ou segurança da informação.
                 </p>
             </div>
             </div>
