@@ -1,5 +1,5 @@
 import './Footer.css'
-import Link from './../link/Link'
+import Link from '../linknav/LinkNav'
 import Logo from "../../assets/img/letra-m.png";
 import Instagram from "../../assets/img/instagram.png";
 import Facebook from "../../assets/img/facebook.png";

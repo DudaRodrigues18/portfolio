@@ -1,5 +1,5 @@
 import './Header.css';
-import Link from './../link/Link';
+import LinkNav from '../linknav/LinkNav';
 import Logo from "../../assets/img/letra-m.png";
 
 function Header(){
@@ -11,13 +11,7 @@ function Header(){
         <nav>
             <ul>
                 <li>
-                    <Link texto='Sobre'/>
-                </li>
-                <li>
-                    <Link texto='Projetos'/>
-                </li>
-                <li>
-                    <Link texto='Contato'/>
+                    <LinkNav url="/" texto='Home'/>
                 </li>
             </ul>
         </nav>

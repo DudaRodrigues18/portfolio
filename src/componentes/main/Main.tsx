@@ -1,7 +1,7 @@
-import './Main.css'
-import { useState } from 'react'
-import Link from '../link/Link';
-import Projeto from './../projeto/Projeto'
+import './Main.css';
+import { useState } from 'react';
+import LinkNav from '../linknav/LinkNav';
+import Projeto from './../projeto/Projeto';
 import Certificado from '../certificado/Certificado';
 import Avatar from "../../assets/img/duda-story.png";
 import Instagram from "../../assets/img/instagram2.png";
@@ -11,13 +11,9 @@ import Youtube from "../../assets/img/youtube2.png";
 import BackgroundMain from "../../assets/img/background-flores2.png";
 import BackgroundMain3e4 from "../../assets/img/backgroundMain3e4.png"
 import Logo from "../../assets/img/letra-m.png";
-import { animateScroll as scroll } from 'react-scroll';
 
 
 function Main(){
-    const irParaOTopo = () => {
-        scroll.scrollToTop();
-      }
 
     const [texto, setTexto]=useState("")
     const [texto2, setTexto2]=useState("")
@@ -124,7 +120,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
 
     return(
     <main>
-        <div className="logo" onClick={irParaOTopo}>
+        <div className="logo">
             <img src={Logo}/>
            </div>
         <div className="main1" style={{backgroundImage: `url(${BackgroundMain})`}}>
@@ -136,13 +132,13 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                     <hr />
                 <ul className='menu-main1'>
                     <li>
-                        <Link texto='Sobre'/>
+                        <LinkNav url="/" texto='Sobre'/>
                     </li>
                     <li>
-                        <Link texto='Projetos'/>
+                        <LinkNav url="/contato" texto='Contato'/>
                     </li>
                     <li>
-                        <Link texto='Certificados'/>
+                        <LinkNav url="/" texto='Certificados'/>
                     </li>
                 </ul>
                 <div className="social-media-main">
