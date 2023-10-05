@@ -1,4 +1,3 @@
-import LinkNav from '../linknav/LinkNav';
 import './Contato.css'
 
 function Contato(){
