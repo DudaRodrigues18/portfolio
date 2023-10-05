@@ -176,7 +176,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
                 <div className='campoPesquisa'>
                 <h1 className='projetos-titulo'>PROJETOS</h1>
         <div className="pesquisar">
-            <input type="text" 
+            <input type="search"
                 className='botao-pesquisa' 
                 placeholder='Pesquisar' 
                 onChange={TrataTexto}/>
@@ -199,7 +199,7 @@ function TrataTexto2(e:React.ChangeEvent<HTMLInputElement>){
             <div className='campoPesquisa'>
                 <h1 className="projetos-titulo">CERTIFICADOS</h1>
                 <div className="pesquisar">
-            <input type="text" 
+            <input type="search" 
                 className='botao-pesquisa' 
                 placeholder='Pesquisar' 
                 onChange={TrataTexto2}/>

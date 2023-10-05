@@ -4,6 +4,7 @@ header{
     align-items: center;
     height: 60px;
     font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgb(18, 74, 119) 0%, rgb(30, 113, 180) 35%, rgba(84,224,252,1) 100%);
 }
 header ul{
     display: flex;
@@ -11,13 +12,13 @@ header ul{
     gap: 15px;
 }
 header ul li a{
-    padding: 21px 20px;
+    padding: 14px 10px;
     text-decoration: none;
-    color: #000000;
-    transition: 0.1s;
+    color: white;
+    transition: 0.2s;
 }
 header ul li a:hover{
-    border-bottom: 1px solid #922517;
+    border-bottom: 1px solid white;
 }
 .header-logo{
     width: 40px;
