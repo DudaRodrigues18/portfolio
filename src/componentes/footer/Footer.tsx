@@ -1,5 +1,5 @@
 import './Footer.css'
-import Link from '../linknav/LinkNav'
+import LinkNav from '../linknav/LinkNav'
 import Logo from "../../assets/img/letra-m.png";
 import Instagram from "../../assets/img/instagram.png";
 import Facebook from "../../assets/img/facebook.png";
@@ -24,25 +24,25 @@ export default function Footer(){
         <ul className='ul-footer'>
             <h1 className='footer-ul-title'>Produto</h1>
                 <li>
-                    <Link texto='Mobile apps'/>
+                    <LinkNav url="/" texto='Mobile apps'/>
                 </li>
                 <li>
-                    <Link texto='Database Designer'/>
+                    <LinkNav url="/" texto='Database Designer'/>
                 </li>
                 <li>
-                    <Link texto='Web Apps Designer'/>
+                    <LinkNav url="/" texto='Web Apps Designer'/>
                 </li>
                 <li>
-                    <Link texto='Segurança'/>
+                    <LinkNav url="/" texto='Segurança'/>
                 </li>
             </ul>
             <ul className="ul-footer">
                 <h1 className='footer-ul-title'>Companhia</h1>
                 <li>
-                    <Link texto='Programa de parceria'/>
+                    <LinkNav url="/" texto='Programa de parceria'/>
                 </li>
                 <li>
-                    <Link texto='Contate-me'/>
+                    <LinkNav url="/" texto='Contate-me'/>
                 </li>
             </ul>
         </nav>
@@ -51,7 +51,7 @@ export default function Footer(){
             <p className="copyright">© 2022-2023</p>
             <div className="language">
                 <img src={Language} className="lan" />
-                <Link texto='Português'/>
+                <LinkNav url="/" texto='Português'/>
             </div>
         </div>
     </footer>
