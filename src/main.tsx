@@ -27,7 +27,7 @@ const router = createBrowserRouter([
             <input type="text" placeholder='Nome Completo'/>
             <input type="email" placeholder='E-mail'/>
             <input type="tel" placeholder='Telefone'/>
-            <input type="date"/>
+            <input type="text" placeholder='Endereço'/>
             <button>Enviar</button>
         </form>
         </div>
