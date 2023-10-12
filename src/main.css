@@ -3,3 +3,49 @@
   box-sizing: border-box;
   max-width: 100%;
 }
+.contato-main{
+  width: 100%;
+  height: auto;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.formContato{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  height: 38vh;
+  justify-content: space-between;
+  align-items: center;
+}
+.formContato input{
+  height: 30px;
+  width: 100%;
+  padding-left: 10px;
+  border: 1px solid #a7a7a7;
+}
+.formContato input:focus{
+  border: 0;
+  outline: 1px solid #186EB3;
+}
+.formContato button{
+  margin-top: 10px;
+  height: 30px;
+  width: 12vw;
+  cursor: pointer;
+  background-color: #186EB3;
+  color: white;
+  border: 0;
+  transition: 0.1s;
+}
+.formContato button:hover{
+  background-color: #175b92;
+}
+.contato-main h1{
+  margin-bottom: 50px;
+  cursor: default;
+}
