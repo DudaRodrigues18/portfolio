@@ -28,7 +28,7 @@ const router = createBrowserRouter([
             <input className='input-contato' type="email" placeholder='E-mail'/>
             <input className='input-contato' type="tel" placeholder='Telefone' maxLength={11}/>
             <input className='input-contato' type="text" placeholder='Endereço'/>
-            <input className='button-enviar' type="submit" placeholder='Enviar'/>
+            <input className='button-enviar' type="submit" value="Enviar"/>
         </form>
         </div>
         <Footer/>
