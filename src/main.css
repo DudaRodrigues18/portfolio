@@ -22,17 +22,17 @@
   justify-content: space-between;
   align-items: center;
 }
-.formContato input{
+.input-contato{
   height: 35px;
   width: 100%;
   padding-left: 10px;
   border: 1px solid #a7a7a7;
 }
-.formContato input:focus{
+.input-contato:focus{
   border: 0;
   outline: 1px solid #186EB3;
 }
-.formContato button{
+.button-enviar{
   margin-top: 10px;
   height: 35px;
   width: 12vw;
@@ -42,7 +42,7 @@
   border: 0;
   transition: 0.1s;
 }
-.formContato button:hover{
+.button-enviar:hover{
   background-color: #175b92;
 }
 .contato-main h1{
