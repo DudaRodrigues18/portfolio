@@ -6,7 +6,7 @@
 .contato-main{
   width: 100%;
   height: auto;
-  min-height: 70vh;
+  min-height: 681px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,12 +18,12 @@
   display: flex;
   flex-direction: column;
   width: 30vw;
-  height: 38vh;
+  height: 280px;
   justify-content: space-between;
   align-items: center;
 }
 .formContato input{
-  height: 30px;
+  height: 35px;
   width: 100%;
   padding-left: 10px;
   border: 1px solid #a7a7a7;
@@ -34,7 +34,7 @@
 }
 .formContato button{
   margin-top: 10px;
-  height: 30px;
+  height: 35px;
   width: 12vw;
   cursor: pointer;
   background-color: #186EB3;
