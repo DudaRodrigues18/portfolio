@@ -13,7 +13,7 @@
     display: flex;
     flex-direction: column;
     width: 30vw;
-    height: 280px;
+    height: 320px;
     justify-content: space-between;
     align-items: center;
   }
@@ -43,4 +43,10 @@
   .contato-main h1{
     margin-bottom: 50px;
     cursor: default;
+  }
+  .textoContato-digitado{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    width: 100%;
   }
